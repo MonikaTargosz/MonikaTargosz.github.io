@@ -1,0 +1,357 @@
+/*{
+    box-sizing: border-box;
+
+}
+
+
+body {
+    background-color: #0a2d33;
+    font-family: Calibri;
+   
+    color: dimgrey;
+    padding: 2%;
+}*/
+
+* { margin: 0; padding: 0; }
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    background: #0a2d33;
+    font: 15px Arial, Helvetica, sans-serif;
+    }
+
+h0 { font-size: 14pt; 
+font-family: Calibri;
+color: white;
+text-align: center;
+margin: 0;
+padding: 0;
+}
+h1 { font-size: 22pt; 
+font-family: Calibri;
+    text-align: center;
+    text-decoration-color: white;
+}
+h2 { font-size: 14pt; 
+font-family: Calibri;
+    text-align: center;
+}
+h3 { font-size: 10pt;
+font-family: Calibri;
+}
+
+
+
+#logo{
+	margin: 0%;
+    padding-bottom: 50%;
+    padding-top: 50%;
+    text-align: center;
+    width: auto; 
+}
+
+#logo img{
+    margin: 0%;
+    padding-bottom: 50%;
+    margin: 50% auto;
+}
+.nazwa{
+    margin: 0px;
+    margin-right: 0px;
+    text-align: center;
+    color: white;
+    font-size: 20pt;
+}
+.top{
+    float:right;
+    width: 80%;
+    height: 8vh;
+    background-color: #58a9b8;
+}
+
+.top p {
+    margin: 0;
+    margin-right: 0px;
+    text-align: center;
+    color: white;
+    font-size: 22pt;
+    font-family: inherit;
+    clear: both;
+}
+
+.top h0 {
+    color: white;
+    text-align: center;
+    margin: 2%;
+    padding: 2%;
+    text-decoration: none;
+}
+
+    
+.column {
+    float: left;
+    padding: 10px;
+}
+
+/* Menu */
+.column.side {
+    list-style-type: none;
+    display: inline-block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 20%;
+    height: 800px;
+    position: fixed;
+    top: 0;
+    margin-left: 0%;
+    display: inline;
+
+}
+
+.submenu{
+    list-style: none;
+}
+
+li > ul {
+  display:none;
+}
+li:hover > ul {
+  display:block;
+}
+
+
+
+/* Text Box */
+.column.middle {
+    width: 75%;
+    float: left;
+    /*height: 800px;*/
+    background-color: white;
+    padding: 1%;
+    margin-top: 75px;
+    /*margin-bottom: 60px;*/
+    font-size: 16px;
+    margin-left: 280px;
+    display: inline;
+    /*z-index: 1;*/
+    position: absolute;
+   
+}
+
+/* Text Box */
+.column.middle_s {
+    width: 75%;
+    float: left;
+    height: 4000px;
+    background-color: white;
+    padding: 1%;
+    margin-top: 75px;
+    /*margin-bottom: 60px;*/
+    font-size: 16px;
+    margin-left: 280px;
+    display: inline;
+
+   
+}
+
+.column.middle_slider {
+    width: 50%;
+    float: left;
+    /*height: 800px;*/
+    background-color: white;
+    padding: 1%;
+    margin-top: 75px;
+    /*margin-bottom: 60px;*/
+    font-size: 16px;
+    margin-left: 380px;
+    display: inline;
+    /*z-index: 1;*/
+    position: absolute;
+   
+}
+
+.column.middle_s1 h4{ 
+     width: 600px;
+    float: left;
+    height: 200px;
+    background-color: white;
+    padding: 1%;
+    margin-top: 75px;
+    /*margin-bottom: 60px;*/
+    display: inline;
+font-size: 13pt; 
+font-family: Calibri;
+color: black;
+text-align: center;
+margin: 0;
+padding: 0;
+text-align: justify;
+
+}
+
+.column.middle_s h4 { 
+font-size: 13pt; 
+font-family: Calibri;
+color: black;
+text-align: center;
+margin: 0;
+padding: 0;
+text-align: justify;
+
+}
+
+.column.middle p{
+    font-size: 14pt;
+}
+
+.column.side a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.column.side a:hover {
+    background-color: #111;
+}
+
+.column.side a.active {
+    background-color:#4CAF50;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+ 
+th {
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+
+#box {
+margin: auto; 
+padding: 3% 0 0;
+text-align: center;
+letter-spacing: -1px;
+
+}
+#text p{
+    font: 100% Calibri;
+}
+
+.top{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.top img{
+float: right;
+margin: 5;
+padding: inherit;
+width: 8vw;
+height: 3.5vw;
+border-top-right-radius: 5px;
+    
+}
+.profile{
+    
+    float: left;
+    width: 100%;
+    height: 10vw;
+   
+}
+
+.profile img{
+    align: top;
+    width: 10vw;
+    margin-right: 2%;
+    border: 2px solid silver;
+}
+
+.profilowe{
+    
+    float: left;
+    width: 10vw;
+    height: 10vw;
+   
+}
+
+
+.androidpic{
+    
+    float: left;
+    width: 10vw;
+    height: 10vw;
+   
+}
+
+.header {
+    width: 100%;
+    height: 15px;
+    background: #0a2d33;
+    position: fixed;
+    text-align: center;
+    color: white;
+    padding: 1%;
+    }
+    
+#content {
+    float: left;
+    width: 70%;
+    height: 800px;
+    background: white;
+    margin-left: 0%;
+    display: inline;
+    /*padding: 1%;
+    margin-top: 0%;
+    font-size: 16px;
+    margin-left: 5%;
+    display: inline;
+    /*border-bottom-right-radius: 20px;*/
+    }
+
+#menu {
+    float: left;
+    width: 20%;
+    /*height: 800px;*/
+    /*position: relative;
+    z-index: 1;*/
+    background: #0a2d33;
+    display: inline-block;
+    /*margin-top: 75px;*/
+     }
+    
+.menu li {
+    margin: 0px;
+    }
+
+.menu a {
+    color: #FFFFFF;
+    text-decoration: none;
+    }
+    
+#menu a:hover {
+    text-decoration: underline;
+    }
+
+#footer {
+    width: 100%;
+    height: 20px;
+    background: #575757;
+    clear: both;
+    text-align: center;
+    padding: 0;
+    }
+    
+/*p, h2 { padding: 10px; }
+p {text-align: justify; }*/
